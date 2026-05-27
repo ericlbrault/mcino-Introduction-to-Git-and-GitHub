@@ -1,0 +1,17 @@
+theia@theia-ericlbrault:/home/project/Centralized-
+repository-shipping_calculations$ git branch bug-fix-typo
+theia@theia-ericlbrault:/home/project/Centralized-repository-shipping_calculation
+s$ git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+theia@theia-ericlbrault:/home/project/Centralized-repository-shipping_calculation
+s$ git checkout main > merge_branches 2>&1
+theia@theia-ericlbrault:/home/project/Centralized-repository-shipping_calculation
+s$ git merge bug-fix-typo >> merge_branches 2>&1
+theia@theia-ericlbrault:/home/project/Centralized-repository-shipping_calculation
+s$ cat merge_branches
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Updating 717eb6c..0c90988
+Fast-forward
+ Shipping_Cost_Calculator.py | 1 +
+ 1 file changed, 1 insertion(+)
